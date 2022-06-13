@@ -10,11 +10,11 @@ if not is_profit: exit()
 
 profit = revenue - expenses
 profitability = profit / revenue
-print(f'Прибыль:{profit}')
-print(f'Рентабельность выручки:{profitability:.2}')
+print(f'Прибыль:{profit:.2f}')
+print(f'Рентабельность выручки:{profitability:.2f}')
 
 employees_count = int(input("Кол-во сотрудников фирмы:"))
 
 profit_per_employee = profit / employees_count
 
-print(f'Прибыль фирмы в расчёте на одного сотрудника: {profit_per_employee}')
+print(f'Прибыль фирмы в расчёте на одного сотрудника: {profit_per_employee:.2f}')
