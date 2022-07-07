@@ -17,6 +17,6 @@ while True:
     result = parse_and_sum(input_str)
     all_sum += result[0]
     need_to_exit = result[1]
-    print(f"Сумма введенных чисел:{all_sum}")
+    print(f"Сумма:{all_sum}")
     if need_to_exit:
         break
